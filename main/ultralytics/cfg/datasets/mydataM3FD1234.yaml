@@ -1,0 +1,37 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#path: datasets/LLVIP700  # dataset root dir
+
+# 下面这些路径是固定的，都不要改，只改上面的'path'
+train: /root/autodl-tmp/datasets/M3FD/dataset_yolo1234/images/train  # train images (relative to 'path') 128 images
+val: /root/autodl-tmp/datasets/M3FD/dataset_yolo1234/images/test  # val images (relative to 'path') 128 images
+train_labels: /root/autodl-tmp/datasets/M3FD/dataset_yolo1234/labels/train
+val_labels: /root/autodl-tmp/datasets/M3FD/dataset_yolo1234/labels/test
+
+test:  # test images (optional)
+
+# Classes
+
+
+#names:模型训练标注错误了，不影响模型性能
+names:
+    0: bus
+    1: car
+    2: lamp
+    3: motorcycle
+    4: people
+    5: truck
+    
+#最开始数据标错了，正确顺序是
+    #0: people
+    #1: car
+    #2: bus
+    #3: lamp
+    #4: motorcycle
+    #5: truck
+
+#类别 0: 11478 个标注
+#类别 1: 18296 个标注
+#类别 2: 700 个标注
+#类别 3: 2405 个标注
+#类别 4: 521 个标注
+#类别 5: 1008 个标注
