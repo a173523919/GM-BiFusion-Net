@@ -1,1 +1,3 @@
-Note: Due to limitations in device capacity and time constraints, the AITOD dataset used in this work is the official part of AI-TOD subset.
+Note: Due to limitations in device capacity and time constraints, the AITOD dataset used in this work is the official part of AI-TOD subset.(AI-TOD-WO-Xview)
+https://drive.google.com/drive/folders/1uNY_rcOO5LrWibXRY6l2dvqSbK6xikJp
+https://github.com/jwwangchn/AI-TOD?tab=readme-ov-file
