@@ -1,0 +1,1 @@
+Note: Due to limitations in device capacity and time constraints, the AITOD dataset used in this work is the official part of AI-TOD subset.
